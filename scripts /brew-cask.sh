@@ -17,6 +17,7 @@ brew cask install flux
 # dev
 brew cask install iterm2
 brew cask install imageoptim
+brew cask install atom
 
 # browsers
 brew cask install google-chrome-canary
