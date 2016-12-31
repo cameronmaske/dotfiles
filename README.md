@@ -1,5 +1,11 @@
+# Install
 
-# Setup
+```
+git clone https://github.com/cameronmaske/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+```
+
+Run the various install scripts.
 
 ```
 ./scripts/xcode.sh
