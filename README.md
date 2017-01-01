@@ -87,9 +87,9 @@ apm stars --user cameronmaske --install
 
 Copy configuration files.
 ```
-cp ~/dotfiles/atom/config.cson ~/.atom/config.cson
-cp ~/dotfiles/atom/keymap.cson ~/.atom/keymap.cson
-cp ~/dotfiles/atom/styles.less ~/.atom/styles.less
+cp ~/.dotfiles/atom/config.cson ~/.atom/config.cson
+cp ~/.dotfiles/atom/keymap.cson ~/.atom/keymap.cson
+cp ~/.dotfiles/atom/styles.less ~/.atom/styles.less
 ```
 ## Note taking (Turtl)
 
