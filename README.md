@@ -69,10 +69,10 @@ Then symlink the files.
 ```
 ln -sv ~/.dotfiles/.zshrc ~/.zshrc
 mkdir -p ~/.zsh
-ln -sv ~/.dotfiles/.zsh/.aliases ~/.zsh/
-ln -sv ~/.dotfiles/.zsh/.exports ~/.zsh
-ln -sv ~/.dotfiles/.zsh/.functions ~/.zsh
-ln -sv ~/.dotfiles/.zsh/.path ~/.zsh
+ln -sv ~/.dotfiles/.zsh/aliases ~/.zsh/aliases
+ln -sv ~/.dotfiles/.zsh/exports ~/.zsh/exports
+ln -sv ~/.dotfiles/.zsh/functions ~/.zsh/functions
+ln -sv ~/.dotfiles/.zsh/path ~/.zsh/path
 touch ~/.zsh/local
 ```
 
