@@ -1,0 +1,33 @@
+"*":
+  core:
+    disabledPackages: []
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "Thumbs.db"
+      "*.pyc"
+      "*.tmp"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "nord-atom-ui"
+      "atom-monokai"
+    ]
+  editor:
+    fontSize: 12
+    invisibles: {}
+    tabLength: 4
+  linter:
+    displayLinterStatus: true
+    showErrorPanel: false
+  "linter-flake8":
+    disableTimeout: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false

@@ -28,3 +28,4 @@ brew cask install chromium
 # misc
 brew cask install disk-inventory-x
 brew cask install vlc
+brew cask install slack
