@@ -44,8 +44,8 @@ Installed via brew using `scripts/brew.sh`.
 Then symlink the configuration files.
 
 ```
-ln -sv “~/.dotfiles/.gitconfig ~
-ln -sv “~/.dotfiles/.global-gitignore” ~
+ln -sv "~/.dotfiles/.gitconfig" ~
+ln -sv "~/.dotfiles/.global-gitignore" ~
 ```
 
 [Install git-friendly](https://github.com/jamiew/git-friendly)
@@ -67,12 +67,12 @@ Installed via brew using `scripts/brew.sh`
 Then symlink the files.
 
 ```
-ln -sv “~/.dotfiles/.zshrc ~
-mkdir -r ~/.zsh
-ln -sv “~/.zsh/.aliases” ~/.zsh
-ln -sv “~/.zsh/.exports ~/.zsh
-ln -sv “~/.zsh/.functions ~/.zsh
-ln -sv “~/.zsh/.path ~/.zsh
+ln -sv "~/.dotfiles/.zshrc ~
+mkdir -p ~/.zsh
+ln -sv "~/.dotfiles/.zsh/.aliases" ~/.zsh/
+ln -sv "~/.dotfiles/.zsh/.exports" ~/.zsh
+ln -sv "~/.dotfiles/.zsh/.functions" ~/.zsh
+ln -sv "~/.dotfiles/.zsh/.path" ~/.zsh
 touch ~/.zsh/local
 ```
 
