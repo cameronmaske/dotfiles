@@ -20,6 +20,10 @@ brew install git-lfs
 # ZSH
 brew install zsh
 
+# Python
+brew instal python
+brew install python3
+pip install --upgrade pip setuptools
 
 # Remove outdated versions from the cellar.
 brew cleanup
