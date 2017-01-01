@@ -17,6 +17,7 @@ for file in ~/.zsh/{path,exports,aliases,functions,local}; do
 done
 unset file
 
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

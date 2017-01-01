@@ -15,6 +15,7 @@ brew install coreutils
 
 # Git
 brew install git
+brew install hub
 brew install git-lfs
 
 # ZSH
