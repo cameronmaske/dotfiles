@@ -160,7 +160,7 @@ function docker-cleanup() {
 ### Docker Machine ###
 # Check if `default` is running, if so, set env.
 if [ $(docker-machine status default) = "Running" ]; then
-    eval (docker-machine env default);
+    eval $(docker-machine env default);
 fi;
 
 function dm() {
