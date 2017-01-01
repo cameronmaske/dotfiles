@@ -26,5 +26,8 @@ brew instal python
 brew install python3
 pip install --upgrade pip setuptools
 
+# Node
+brew install node
+
 # Remove outdated versions from the cellar.
 brew cleanup

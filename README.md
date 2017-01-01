@@ -108,3 +108,10 @@ Setup some new SSH keys.
 ```
 ssh-keygen -t rsa -C "you@email.com"
 ```
+
+## Linters
+
+```
+sudo pip install -U flake8
+npm install -g eslint
+```
