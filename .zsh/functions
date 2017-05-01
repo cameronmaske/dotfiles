@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Create a new directory and enter it
+# Create a new directory and enter
 function md() {
   mkdir -p "$@" && cd "$@"
 }

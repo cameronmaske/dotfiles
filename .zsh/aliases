@@ -68,3 +68,11 @@ alias plistbuddy="/usr/libexec/PlistBuddy"
 # Ring the terminal bell, and put a badge on Terminal.app’s Dock icon
 # (useful when executing time-consuming commands)
 alias badge="tput bel"
+
+# Jump to project's folder.
+alias tm="cd /Users/cameron/Development/trackmaven"
+alias dev="cd /Users/cameron/Development/"
+
+# Open web pages.
+alias aws-gui="open https://console.aws.amazon.com/console/"
+alias tm-app="open https://app.trackmaven.com"
