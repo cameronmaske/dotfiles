@@ -29,3 +29,4 @@ brew cask install chromium
 brew cask install disk-inventory-x
 brew cask install vlc
 brew cask install slack
+brew cask install spotify
